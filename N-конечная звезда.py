@@ -6,7 +6,7 @@ canvas.pack()
 
 r = 300
 
-while not ((n := input()).isdigit() and int(n) > 1):
+while not ((n := input('Введите количество вершин звезды: ')).isdigit() and (int(n) == 5 or int(n) > 6)):
     print('Некорректный ввод')
 n = int(n)
 
